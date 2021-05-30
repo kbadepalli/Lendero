@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "fullName": "Richie Torel",
+    "email": "rtorel0@state.gov",
+    "password": "RfnLS4Ww5",
+    "roleId": 1,
+    "resetPasswordToken": "16-535-4708",
+    "blocked": false,
+    "active": true,
+    "createdAt": "1996-03-15",
+    "updatedAt": "1999-11-28"
+  },
+  {
+    "id": 2,
+    "fullName": "Windham Brogioni",
+    "email": "wbrogioni1@sogou.com",
+    "password": "VdbSRZW",
+    "roleId": 2,
+    "resetPasswordToken": "73-027-3212",
+    "blocked": false,
+    "active": false,
+    "createdAt": "1997-01-22",
+    "updatedAt": "1999-08-28"
+  },
+  {
+    "id": 3,
+    "fullName": "Costanza Flucks",
+    "email": "cflucks2@live.com",
+    "password": "xChEsR",
+    "roleId": 3,
+    "resetPasswordToken": "04-754-2818",
+    "blocked": false,
+    "active": true,
+    "createdAt": "1991-03-21",
+    "updatedAt": "1989-05-18"
+  },
+  {
+    "id": 4,
+    "fullName": "Sarajane Barrett",
+    "email": "sbarrett3@storify.com",
+    "password": "l8FPJ7",
+    "roleId": 4,
+    "resetPasswordToken": "27-852-1433",
+    "blocked": true,
+    "active": false,
+    "createdAt": "1999-03-22",
+    "updatedAt": "1997-02-05"
+  },
+  {
+    "id": 5,
+    "fullName": "Jeromy De La Cote",
+    "email": "jde4@1688.com",
+    "password": "J9ccOY1",
+    "roleId": 5,
+    "resetPasswordToken": "36-916-2640",
+    "blocked": true,
+    "active": false,
+    "createdAt": "1989-01-09",
+    "updatedAt": "1998-10-30"
+  }
+]

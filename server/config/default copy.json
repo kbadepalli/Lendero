@@ -1,0 +1,143 @@
+{
+  "development": {
+    "db": {
+      "database": "userjs",
+      "username": "root",
+      "password": "mysql",
+      "host": "localhost",
+      "dialect": "mysql",
+      "pool": {
+        "max": 5,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+      }
+    },
+    "jwtSecret": "lenderApp_dev",
+    "publicUrl": "http://lender.sciurus.com.au",
+    "email": {
+      "host": "mail.sciurus.com.au",
+      "port": 110,
+      "auth": {
+        "username": "kiran@sciurus.com.au",
+        "password": "B@dep@lli123"
+      },
+      "from": "no-reply@sciurus.com.au",
+      "replyTo": "no-reply@sciurus.com.au",
+      "forgotPassword": {
+        "from": "no-reply@sciurus.com.au",
+        "replyTo": "no-reply@sciurus.com.au"
+      },
+      "admin": {
+        "from": "admin@sciurus.com.au",
+        "replyTo": "admin@sciurus.com.au"
+      },
+      "support": {
+        "from": "support@sciurus.com.au",
+        "replyTo": "support@sciurus.com.au"
+      }
+    }
+  },
+  "production": {
+    "db": {
+      "database": "userjs",
+      "username": "root",
+      "password": "mysql",
+      "host": "localhost",
+      "dialect": "mysql",
+      "pool": {
+        "max": 5,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+      }
+    },
+    "jwtSecret": "lenderApp_prod",
+    "publicUrl": "http://lender.sciurus.com.au",
+    "email": {
+      "host": "mail.sciurus.com.au",
+      "port": 110,
+      "auth": {
+        "username": "kiran@sciurus.com.au",
+        "password": "B@dep@lli123"
+      },
+      "from": "no-reply@sciurus.com.au",
+      "replyTo": "no-reply@sciurus.com.au",
+      "forgotPassword": {
+        "from": "no-reply@sciurus.com.au",
+        "replyTo": "no-reply@sciurus.com.au"
+      },
+      "admin": {
+        "from": "admin@sciurus.com.au",
+        "replyTo": "admin@sciurus.com.au"
+      },
+      "support": {
+        "from": "support@sciurus.com.au",
+        "replyTo": "support@sciurus.com.au"
+      }
+    }
+  },
+  "test": {
+    "db": {
+      "database": "userjs",
+      "username": "root",
+      "password": "mysql",
+      "host": "localhost",
+      "dialect": "mysql",
+      "pool": {
+        "max": 5,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+      }
+    },
+    "jwtSecret": "lenderApp_test",
+    "publicUrl": "http://lender.sciurus.com.au",
+    "email": {
+      "host": "mail.sciurus.com.au",
+      "port": 110,
+      "auth": {
+        "username": "kiran@sciurus.com.au",
+        "password": "B@dep@lli123"
+      },
+      "from": "no-reply@sciurus.com.au",
+      "replyTo": "no-reply@sciurus.com.au",
+      "forgotPassword": {
+        "from": "no-reply@sciurus.com.au",
+        "replyTo": "no-reply@sciurus.com.au"
+      },
+      "admin": {
+        "from": "admin@sciurus.com.au",
+        "replyTo": "admin@sciurus.com.au"
+      },
+      "support": {
+        "from": "support@sciurus.com.au",
+        "replyTo": "support@sciurus.com.au"
+      }
+    }
+  },
+
+  "db": {
+    "database": "userjs",
+    "username": "root",
+    "password": "mysql",
+    "host": "localhost",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "date": {
+    "mySql": {
+      "dateOnly": "YYYY-MM-DD",
+      "dateTime": "YYYY-MM-DD hh:mm:ss"
+    },
+    "client": {
+      "DateOnly": "DD-MM-YYYY",
+      "DateTime": "DD-MM-YYYY hh:mm:ss"
+    }
+  }
+}
